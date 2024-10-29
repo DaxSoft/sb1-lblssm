@@ -1,0 +1,11 @@
+/* Add shimmer animation */
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Rest of your existing CSS remains the same */
